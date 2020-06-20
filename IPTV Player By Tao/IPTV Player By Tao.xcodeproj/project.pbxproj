@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E3CF4342487F12F00E296ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CF4332487F12F00E296ED /* AppDelegate.swift */; };
+		2E3CF4362487F12F00E296ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3CF4352487F12F00E296ED /* SceneDelegate.swift */; };
+		2E3CF43B2487F12F00E296ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CF4392487F12F00E296ED /* Main.storyboard */; };
+		2E3CF43D2487F13000E296ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CF43C2487F13000E296ED /* Assets.xcassets */; };
+		2E3CF4402487F13000E296ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3CF43E2487F13000E296ED /* LaunchScreen.storyboard */; };
+		2E76437D2494A9D400A3E80F /* IPTVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E76437C2494A9D400A3E80F /* IPTVPlayerViewController.swift */; };
+		2EF9715E2487FE660085333D /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF9715D2487FE660085333D /* CollectionViewController.swift */; };
+		2EF97162248A78580085333D /* DealWithM3UFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF97161248A78580085333D /* DealWithM3UFile.swift */; };
+		2EF97164248A998C0085333D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF97163248A998C0085333D /* CollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E3CF4302487F12F00E296ED /* IPTV Player By Tao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPTV Player By Tao.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3CF4332487F12F00E296ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E3CF4352487F12F00E296ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2E3CF43A2487F12F00E296ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E3CF43C2487F13000E296ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E3CF43F2487F13000E296ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E3CF4412487F13000E296ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E76437C2494A9D400A3E80F /* IPTVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPTVPlayerViewController.swift; sourceTree = "<group>"; };
+		2EF9715D2487FE660085333D /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		2EF97161248A78580085333D /* DealWithM3UFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealWithM3UFile.swift; sourceTree = "<group>"; };
+		2EF97163248A998C0085333D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3CF42D2487F12F00E296ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3CF4272487F12F00E296ED = {
+			isa = PBXGroup;
+			children = (
+				2E3CF4322487F12F00E296ED /* IPTV Player By Tao */,
+				2E3CF4312487F12F00E296ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3CF4312487F12F00E296ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3CF4302487F12F00E296ED /* IPTV Player By Tao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3CF4322487F12F00E296ED /* IPTV Player By Tao */ = {
+			isa = PBXGroup;
+			children = (
+				2E3CF4332487F12F00E296ED /* AppDelegate.swift */,
+				2E3CF4352487F12F00E296ED /* SceneDelegate.swift */,
+				2EF9715D2487FE660085333D /* CollectionViewController.swift */,
+				2EF97161248A78580085333D /* DealWithM3UFile.swift */,
+				2E3CF4392487F12F00E296ED /* Main.storyboard */,
+				2E76437C2494A9D400A3E80F /* IPTVPlayerViewController.swift */,
+				2EF97163248A998C0085333D /* CollectionViewCell.swift */,
+				2E3CF43C2487F13000E296ED /* Assets.xcassets */,
+				2E3CF43E2487F13000E296ED /* LaunchScreen.storyboard */,
+				2E3CF4412487F13000E296ED /* Info.plist */,
+			);
+			path = "IPTV Player By Tao";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3CF42F2487F12F00E296ED /* IPTV Player By Tao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3CF4442487F13000E296ED /* Build configuration list for PBXNativeTarget "IPTV Player By Tao" */;
+			buildPhases = (
+				2E3CF42C2487F12F00E296ED /* Sources */,
+				2E3CF42D2487F12F00E296ED /* Frameworks */,
+				2E3CF42E2487F12F00E296ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IPTV Player By Tao";
+			productName = "IPTV Player By Tao";
+			productReference = 2E3CF4302487F12F00E296ED /* IPTV Player By Tao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3CF4282487F12F00E296ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "TAO LI";
+				TargetAttributes = {
+					2E3CF42F2487F12F00E296ED = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 2E3CF42B2487F12F00E296ED /* Build configuration list for PBXProject "IPTV Player By Tao" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E3CF4272487F12F00E296ED;
+			productRefGroup = 2E3CF4312487F12F00E296ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3CF42F2487F12F00E296ED /* IPTV Player By Tao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E3CF42E2487F12F00E296ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3CF4402487F13000E296ED /* LaunchScreen.storyboard in Resources */,
+				2E3CF43D2487F13000E296ED /* Assets.xcassets in Resources */,
+				2E3CF43B2487F12F00E296ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3CF42C2487F12F00E296ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E76437D2494A9D400A3E80F /* IPTVPlayerViewController.swift in Sources */,
+				2EF97164248A998C0085333D /* CollectionViewCell.swift in Sources */,
+				2EF9715E2487FE660085333D /* CollectionViewController.swift in Sources */,
+				2E3CF4342487F12F00E296ED /* AppDelegate.swift in Sources */,
+				2E3CF4362487F12F00E296ED /* SceneDelegate.swift in Sources */,
+				2EF97162248A78580085333D /* DealWithM3UFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E3CF4392487F12F00E296ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3CF43A2487F12F00E296ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E3CF43E2487F13000E296ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E3CF43F2487F13000E296ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E3CF4422487F13000E296ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2E3CF4432487F13000E296ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E3CF4452487F13000E296ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XFHQ5NSD4;
+				INFOPLIST_FILE = "IPTV Player By Tao/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "taoli-me.com.IPTV-Player-By-Tao";
+				PRODUCT_NAME = "IPTV Player By Tao";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E3CF4462487F13000E296ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XFHQ5NSD4;
+				INFOPLIST_FILE = "IPTV Player By Tao/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "taoli-me.com.IPTV-Player-By-Tao";
+				PRODUCT_NAME = "IPTV Player By Tao";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3CF42B2487F12F00E296ED /* Build configuration list for PBXProject "IPTV Player By Tao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3CF4422487F13000E296ED /* Debug */,
+				2E3CF4432487F13000E296ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3CF4442487F13000E296ED /* Build configuration list for PBXNativeTarget "IPTV Player By Tao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3CF4452487F13000E296ED /* Debug */,
+				2E3CF4462487F13000E296ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3CF4282487F12F00E296ED /* Project object */;
+}
